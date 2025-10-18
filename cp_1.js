@@ -5,3 +5,11 @@ const commentsInput = document.querySelector("#comments");
 commentsInput.addEventListener("input", () => {
     console.log("Characters:", commentsInput.value.length);
 })
+
+commentsInput.addEventListener("mouseover", () => {
+    console.log("Please leave your comments in the textbox!");
+    
+});
+commentsInput.addEventListener("mouseout", () => {
+    console.log("You are now outside the comments box!")
+});
