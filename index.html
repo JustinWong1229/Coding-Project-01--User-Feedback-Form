@@ -7,13 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="Feedback Form"></div>
-    <input type="Username">
+   <header> <h1>Feedback Form</h1></header>
+   <div id="username"></div>
+   <label for="username">Username:</label>
+    <input type="text" id="username">
     <div></div>
-    <input type="Email">
+    
+
+    <div id="email"></div>
+    <label for="email">Email:</label>
+    <input type="text" id="email">
     <div></div>
+
+<label for="Comments">Comments:</label>
     <textarea name="Comments" id="comments"></textarea>
     <button id="submitButton">Submit</button>
+    <br>
+    <h2>Submitted Feedback</h2>
+    <div id="feedback-display"></div>
+
    <script src="cp_1.js"></script>
 </body>
 </html>
