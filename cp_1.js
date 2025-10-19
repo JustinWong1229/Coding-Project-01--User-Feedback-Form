@@ -36,4 +36,10 @@ commentsInput.addEventListener("mouseover", () => {
 commentsInput.addEventListener("mouseout", () => {
     console.log("You are now outside the comments box!")
 });
-
+document.querySelector("#feedback-form").addEventListener("click", (e) => {
+    if (e.target.matches("input, textarea")) {
+        console.log("Interacting with:", e.target.id);
+        e.stopPropagation();
+        
+    }
+})
