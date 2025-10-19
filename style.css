@@ -78,3 +78,19 @@
   .contact-info li {
     margin-bottom: 0.5rem;
   }
+
+  #comments {
+    width: 600px;
+    height: 140px;
+    padding: 8px;
+  }
+  #username {
+    width: 700px;
+    height: 25px;
+    padding: 8px;
+  }
+  #email {
+    width: 700px;
+    height: 25px;
+    padding: 8px;
+  }
