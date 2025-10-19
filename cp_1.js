@@ -15,7 +15,6 @@ form.addEventListener('submit', (e) => {
 
     if (!username || !email || !comments) {
         alert("Please fill in all of the fields!");
-    
     return;
     }
 
